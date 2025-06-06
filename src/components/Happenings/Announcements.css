@@ -1,0 +1,77 @@
+.announcements-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #003366;
+  font-weight: bold;
+}
+
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.tab-link {
+  padding: 8px 14px;
+  text-decoration: none;
+  color: #003366;
+  border: 2px solid #003366;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tab-link:hover {
+  background-color: #003366;
+  color: white;
+}
+
+.tab-link.active {
+  background: linear-gradient(to right, #004080, #ffa500);
+  color: white;
+  border-color: transparent;
+}
+
+.blue-orange-line {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #004080, #ffa500);
+  margin: 20px 0;
+}
+
+.announcement-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.announcement-list li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.announcement-list a {
+  color: #004080;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.announcement-list a:hover {
+  color: #ffa500;
+}
+.achievement-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}

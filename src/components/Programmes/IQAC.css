@@ -1,0 +1,92 @@
+.iqac-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  text-align: justify;
+  color: #222;
+}
+
+.iqac-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.iqac-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 600;
+}
+
+.iqac-links li {
+  text-align: left;
+}
+
+.iqac-links a {
+  color: #111;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.iqac-links a:hover {
+  color: red;
+}
+
+
+
+
+.iqac-card {
+  margin-bottom: 30px;
+}
+
+.iqac-card-header {
+  background-color: orange;
+  color: #111;
+  font-weight: 600;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+}
+
+.iqac-card-body {
+  background-color: #fff;
+  padding: 15px 10px;
+}
+
+.iqac-subcard {
+  background-color: #ff4d4d;
+  color: white;
+  font-weight: 500;
+  padding: 10px 16px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iqac-icon {
+  font-size: 18px;
+}
+.iqac-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: black;
+}
+
+.iqac-content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.iqac-content ul li {
+  margin-bottom: 8px;
+}

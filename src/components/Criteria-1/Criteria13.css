@@ -1,0 +1,44 @@
+.criteria13-container {
+  padding: 30px;
+}
+
+.criteria13-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  margin: 0 auto;
+}
+
+.blue-bar {
+  background-color: #007bff;
+  height: 7px;
+}
+
+.orange-bar {
+  background-color: orange;
+  height: 7px;
+}
+
+.criteria13-list {
+  list-style-type: disc;
+  padding-left: 60px;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.criteria13-list a {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.criteria13-list a:hover {
+  color: #0056b3;
+}

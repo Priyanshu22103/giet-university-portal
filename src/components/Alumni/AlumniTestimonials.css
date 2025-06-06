@@ -1,0 +1,91 @@
+.university-officers {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0e2a47;
+  margin-bottom: 10px;
+}
+
+.about-heading-underline {
+  width: 120px;
+  height: 4px;
+  background-color: #0e2a47;
+  margin: 0 auto 30px;
+}
+
+.testimonial-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.video-carded {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  transition: transform 0.3s ease;
+}
+
+.video-carded:hover {
+  transform: scale(1.02);
+}
+
+.video-carded img {
+  width: 100%;
+  height: 400px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures consistent cropping to fill the box */
+  display: block;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.play-icon {
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.text h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text p {
+  margin-bottom: -30px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .testimonial-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -1,0 +1,68 @@
+.inter-alumni-container {
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 0 20px;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.inter-alumni-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #2c2c8c;
+  margin-bottom: 12px;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.underline-bar {
+  width: 100px;
+  height: 5px;
+  background: linear-gradient(90deg, #c62828, #ff5252);
+  margin: 0 auto 40px auto;
+  border-radius: 10px;
+}
+
+.inter-alumni-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.inter-alumni-image-wrapper {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.inter-alumni-image-wrapper:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+}
+
+.inter-alumni-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .inter-alumni-image {
+    height: 180px;
+  }
+
+  .inter-alumni-title {
+    font-size: 2.2rem;
+  }
+}

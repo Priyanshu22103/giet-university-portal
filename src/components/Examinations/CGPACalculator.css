@@ -1,0 +1,61 @@
+.cgpa-container {
+  max-width: 500px;
+  height: 350px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fffbe7;
+  border: 5px dotted #ffd700;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #ffe06655;
+  text-align: center;
+}
+
+.cgpa-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c2c8c;
+  margin-bottom: 18px;
+}
+
+.cgpa-form input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 8px double #ffd700;
+  margin-bottom: 16px;
+  width: 80%;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.cgpa-form input[type="number"]:focus {
+  border: 1.5px solid #ffb800;
+}
+
+.cgpa-form button {
+  padding: 10px 24px;
+  background: #ffb800;
+  color: #2c2c8c;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cgpa-form button:hover {
+  background: #ffa500;
+  color: #fff;
+}
+
+.cgpa-result {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c2c8c;
+}
+
+.cgpa-result span {
+  color: #e67e22;
+}

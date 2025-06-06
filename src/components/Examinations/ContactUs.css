@@ -1,0 +1,86 @@
+.contactus-container {
+  max-width: 700px;
+  margin: 70px auto 0 auto;
+  padding: 48px 32px 56px 32px;
+  background: linear-gradient(120deg, #fffbe7 60%, #f7f7ff 100%);
+  border-radius: 28px;
+  box-shadow: 0 8px 32px rgba(44,44,140,0.13);
+  text-align: center;
+  border: 3px solid #ffb800;
+  position: relative;
+}
+
+.contactus-title {
+  font-size: 2.3rem;
+  color: #2c2c8c;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing: 1.5px;
+}
+
+.contactus-underline {
+  width: 120px;
+  height: 8px;
+  margin: 0 auto 32px auto;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #2c2c8c 60%, #ffb800 40%);
+}
+
+.contactus-info {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  background: rgba(255,255,255,0.7);
+  border-radius: 16px;
+  padding: 32px 24px;
+  box-shadow: 0 2px 12px #ffe06633;
+}
+
+.contactus-row {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: flex-start;
+  font-size: 1.18rem;
+}
+
+.contactus-label {
+  font-weight: 700;
+  color: #2c2c8c;
+  min-width: 90px;
+  font-size: 1.1em;
+}
+
+.contactus-value {
+  color: #444;
+  text-decoration: none;
+  word-break: break-word;
+  font-size: 1.08em;
+  transition: color 0.2s;
+}
+
+.contactus-value:hover {
+  color: #ffb800;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .contactus-container {
+    padding: 18px 5px 24px 5px;
+    max-width: 98vw;
+  }
+  .contactus-title {
+    font-size: 1.3rem;
+  }
+  .contactus-info {
+    padding: 16px 4px;
+    gap: 16px;
+  }
+  .contactus-row {
+    flex-direction: column;
+    gap: 2px;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,96 @@
+.incubatex-container {
+  padding: 2rem;
+  background-color: #f9fafb;
+  color: #111827;
+  font-family: Arial, sans-serif;
+}
+
+.incubatex-title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  text-align: center;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.incubatex-underline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+  border-radius: 2px;
+}
+
+.blue-line {
+  background-color: #1e3a8a;
+}
+
+.orange-line {
+  background-color: #f97316;
+}
+
+.subheading-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000;
+  text-align: left;
+}
+
+.incubatex-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.incubatex-services-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #000;
+}
+
+.incubatex-list {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #111;
+}
+
+.incubatex-list li {
+  margin-bottom: 0.75rem;
+}
+
+.incubatex-link {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: #000;
+  text-align: left;
+}
+
+.incubatex-link a {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+.total-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.content-div{
+  background-color: #f5f9ff;
+  width:75%;
+}

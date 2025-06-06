@@ -1,0 +1,57 @@
+.innovation-wrapper {
+  background-color: #1e2166;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.innovation-container {
+  width: 80%; /* ✅ Now it takes only 80% of screen width */
+  border: 1px solid #fff;
+  padding: 40px 30px;
+  text-align: center;
+  color: white;
+}
+
+.innovation-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.innovation-underline {
+  width: 80px;
+  height: 3px;
+  background-color: #ffb800;
+  margin: 0 auto 25px auto;
+}
+
+.innovation-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #eee;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.innovation-read-more {
+  display: block;
+  text-align: right;
+  color: red;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.innovation-read-more:hover {
+  text-decoration: underline;
+}
+
+.innovation-image {
+  width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+  margin-top: 20px;
+  border-radius: 6px;
+}

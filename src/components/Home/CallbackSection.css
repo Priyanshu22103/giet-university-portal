@@ -1,0 +1,26 @@
+.callback-container {
+  font-family: 'Arial', sans-serif;  
+  background-color: #ffffff;
+  padding: 1px 180px 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.callback-content {
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.callback-title {
+  font-size: 26px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.callback-description p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.6;
+  margin: 0;  /* Removes default p tag spacing */
+}

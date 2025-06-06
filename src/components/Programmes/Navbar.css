@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: nowrap;
+}
+.program-nav-container {
+  margin-top: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+}
+
+.program-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  
+  
+  
+}
+
+.program-nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px; 
+  position: relative;
+  padding: 0 12px;
+  transition: all 0.3s ease;
+  border-right: 1px solid #aaa;
+}
+
+.program-nav-link:last-child {
+  border-right: none; 
+}
+
+.program-nav-link:hover {
+  color: #e74c3c;
+ 
+}
+
+.program-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  /* background-color: #e74c3c;
+  transition: width 0.3s ease; */
+}
+
+.program-nav-link:hover::after {
+  width: 100%;
+  
+}
+
+
+
+.program-nav-link {
+  color: #111; /* Black text by default */
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+}
+
+.program-nav-link:hover {
+  /* color: rgb(186, 93, 12);  */
+  color: #ffb800;
+  background: #f0f0f0;
+}
+
+.program-nav-link.active-link {
+  background: #ffb800;
+  color: #2c2c8c;  
+  font-weight: bold; 
+}
+
+.navbar-underline {
+  width: 90%;
+  height: 0.8px;
+  background: linear-gradient(to right, Black);
+  margin: 12px auto 0 auto;
+  
+}

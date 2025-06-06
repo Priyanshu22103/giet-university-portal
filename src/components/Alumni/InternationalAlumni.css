@@ -1,0 +1,49 @@
+.international-alumni-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9ff;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  border-radius: 12px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 36px;
+  color: #03030c;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.heading-underline {
+  width: 100px;
+  height: 6px;
+  background: linear-gradient(90deg, #2c2c8c 60%, #ffb800 40%);
+  border-radius: 3px;
+  margin: 0 auto 30px auto;
+}
+
+.content-card {
+  background: #ffffff;
+  padding: 30px 24px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(44, 44, 140, 0.1);
+}
+
+.content-card h2 {
+  color: #2c2c8c;
+  font-size: 22px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.content-card p {
+  font-size: 17px;
+  margin-bottom: 14px;
+  color: #333;
+  line-height: 1.7;
+  text-align: justify;
+}

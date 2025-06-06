@@ -1,0 +1,45 @@
+.overview-container {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.overview-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.overview-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.overview-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.overview-box {
+  /* background-color: #223B7B; */
+  color: white;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.overview-box p {
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.overview-paragraph {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+}

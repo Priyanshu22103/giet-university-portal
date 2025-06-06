@@ -1,0 +1,73 @@
+.academics-page {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  padding: 40px 120px;
+  line-height: 1.8;
+}
+
+.academics-page h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sub-nav {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 14px;
+}
+
+.sub-nav span {
+  cursor: pointer;
+  margin: 0 10px;
+  color: #000;
+  font-weight: 500;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+.sub-nav span:last-child {
+  border-right: none;
+}
+
+.academics-page em {
+  display: block;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.academics-page h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0033a0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.academics-page ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.academics-page p {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+.section-heading {
+  max-width: 900px;
+  margin: 0 auto 1rem; /* center horizontally and add bottom margin */
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #002147; /* dark blue */
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center; /* center the text */
+}

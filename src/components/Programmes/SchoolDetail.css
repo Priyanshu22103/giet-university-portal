@@ -1,0 +1,63 @@
+.school-detail-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fefefe;
+  min-height: 100vh;
+}
+
+.school-detail-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.school-detail-header h2 {
+  font-size: 2.5rem;
+  color: #003865;
+  border-bottom: 4px solid #f26522;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.school-detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.school-detail-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.school-detail-description {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.school-detail-description strong {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.3rem !important;
+  color: #f26522 !important;
+}
+
+
+
+.school-detail-error {
+  padding: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.description-title {
+  color: #f26522;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}

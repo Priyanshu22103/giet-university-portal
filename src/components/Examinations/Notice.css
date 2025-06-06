@@ -1,0 +1,80 @@
+.notices-container {
+  padding: 40px 20px;
+  background: linear-gradient(120deg, #fffbe7 60%, #f7f7ff 100%);
+  text-align: center;
+  min-height: 100vh;
+}
+
+.about-heading-underline {
+  width: 120px;
+  height: 8px;
+  margin: 0 auto 32px auto;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #2c2c8c 50%, #ffb800 50%);
+}
+
+.notices-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+  color: #2c2c8c;
+  letter-spacing: 1px;
+}
+
+.notices-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+}
+
+.notice-item {
+  width: 99%;
+  max-width: 1100px;
+  background: linear-gradient(90deg, #ffe066 70%, #fffbe7 90%);
+  color: #2c2c8c;
+  padding: 18px 28px;
+  text-align: left;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 18px rgba(44,44,140,0.07);
+  transition: background 0.3s, color 0.3s, box-shadow 0.2s;
+  cursor: pointer;
+  border: 8px double #f5be27;
+}
+
+.notice-item:hover {
+  background: linear-gradient(90deg, orange 100%, #ffd700 100%);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(255, 140, 0, 0.13);
+}
+
+.notice-item .pdf-icon {
+  font-size: 20px;
+  color: #ffb800;
+  margin-left: 12px;
+}
+
+.notice-item.faded {
+  color: #aaa;
+  background: #fcdcdc;
+  cursor: not-allowed;
+  pointer-events: auto;
+  border: 5px double #fcdcdc;
+}
+
+@media (max-width: 700px) {
+  .notice-item {
+    padding: 12px 10px;
+    font-size: 1rem;
+  }
+  .notices-title {
+    font-size: 1.3rem;
+  }
+}

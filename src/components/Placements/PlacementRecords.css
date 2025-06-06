@@ -1,0 +1,107 @@
+/* Modern, stylish placement records section with yellow-violet gradients */
+.placement-wrapper {
+  min-height: 100vh;
+  background: #fff;
+  padding: 48px 0 48px 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placement-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 36px;
+  text-align: center;
+  background: linear-gradient(90deg, #fcb900 10%, #a259f7 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 1px;
+}
+
+.placement-list {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.record-container {
+  background: linear-gradient(90deg, #fffbe6 0%, #f3e6ff 100%);
+  margin: 0;
+  padding: 0;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(162,89,247,0.10);
+  transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.18s;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  text-decoration: none;
+  border: 1.5px solid #fcb90022;
+}
+
+.record-container:hover {
+  transform: translateY(-6px) scale(1.025);
+  box-shadow: 0 12px 32px 0 rgba(162,89,247,0.18);
+  border-color: #a259f7;
+}
+
+.record-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 22px 28px;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: #23243a;
+  background: none;
+}
+
+.record-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #fcb900 60%, #a259f7 100%);
+  padding: 0 32px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  min-width: 80px;
+  transition: background 0.3s;
+}
+
+.record-container:hover .record-icon {
+  background: linear-gradient(120deg, #a259f7 60%, #fcb900 100%);
+}
+
+.pdf-icon {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 2px 6px #a259f7aa);
+}
+
+@media (max-width: 700px) {
+  .placement-title {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+  }
+  .placement-list {
+    max-width: 98vw;
+    gap: 14px;
+  }
+  .record-content {
+    font-size: 1rem;
+    padding: 12px 10px;
+  }
+  .record-icon {
+    padding: 0 12px;
+    min-width: 48px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .record-container {
+    border-radius: 10px;
+  }
+}

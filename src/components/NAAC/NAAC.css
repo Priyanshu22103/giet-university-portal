@@ -1,0 +1,120 @@
+.naac-title {
+  font-size: 50px;
+  margin-left: 780px;
+  margin-top: 100px;
+}
+.child-box {
+  text-decoration: none;
+}
+.child-box:hover {
+  text-decoration: none;
+}
+.divider {
+  margin-left: 804px;
+}
+
+.blue-bar {
+  height: 5px;
+  background-color: blue;
+  width: 90px;
+}
+
+.orange-bar {
+  height: 5px;
+  background-color: orange;
+  width: 90px;
+}
+
+.naac-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.expandable-container {
+  background: linear-gradient(135deg, #fffbe7 0%, #ffe066 100%);
+  border: 4px solid #ff9800; /* Stronger, more visible border */
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(255, 152, 0, 0.35); /* Stronger shadow */
+  margin-bottom: 24px;
+  padding: 20px 24px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.expandable-container.open {
+  box-shadow: 0 12px 40px rgba(255, 152, 0, 0.45);
+  transform: scale(1.03);
+}
+
+
+
+.expandable-header {
+  cursor: pointer;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #f5a300;
+  color: white;
+}
+
+.expandable-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  transition: max-height 0.6s ease, padding 0.6s ease;
+}
+
+.expandable-container.open .expandable-content {
+  max-height: 500px; /* Adjust as needed */
+  padding: 10px 15px;
+}
+
+.child-row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.child-number {
+  color: #111; /* Black */
+  width: 50px;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.child-box {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  flex: 1;
+}
+
+
+
+.expandable-header {
+  background-color: transparent;
+  color: #333; /* or your preferred color */
+}
+
+.expandable-content {
+  background-color: transparent;
+}
+
+
+.child-box {
+  background-color: #fffde4; /* Light background for contrast */
+  color: #222; /* Dark text for visibility */
+  padding: 10px 15px;
+  border-radius: 4px;
+  flex: 1;
+  text-decoration: none;
+  font-weight: 500;
+}
+.child-box:hover {
+  background-color: #ffe066;
+  color: #111;
+  text-decoration: none;
+}
+

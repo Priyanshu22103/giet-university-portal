@@ -1,0 +1,74 @@
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 20px;
+}
+
+.video-cards {
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+.date-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc107; /* Yellow */
+  color: #000;
+  width: 100%;
+  padding: 8px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+.image-wrapper:hover .date-bar {
+  background-color: #e91e63; /* Pinkish radish */
+  color: #fff;
+}
+
+.name-bar {
+  background-color: #1a237e; /* Dark blue */
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a237e; /* Dark blue */
+}
+
+.about-heading-underline {
+  width: 80px;
+  height: 4px;
+  background-color: #e91e63; /* Radish pink */
+  margin: 0 auto 30px auto;
+}

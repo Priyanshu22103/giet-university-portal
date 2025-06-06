@@ -1,0 +1,51 @@
+.Gladiator-container {
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.Gladiator-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.Gladiator-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.Gladiator-image {
+  margin-bottom: 24px;
+}
+
+.Gladiator-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Gladiator-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Gladiator-title {
+    font-size: 1.5rem;
+  }
+
+  .Gladiator-description {
+    font-size: 0.95rem;
+  }
+}

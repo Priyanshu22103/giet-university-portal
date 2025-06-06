@@ -1,0 +1,42 @@
+.campus-flash-container {
+  padding: 2rem;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campus-flash-heading {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+.campus-flash-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.campus-flash-card {
+  background-color: orange;
+  color: #fff;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.campus-flash-card:hover {
+  background-color: #ff9800;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

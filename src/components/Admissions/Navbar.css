@@ -1,0 +1,58 @@
+.admission-nav-container {
+  margin-top: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+}
+
+.admission-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.admission-nav-link {
+  color: #111; /* Default black text */
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  padding: 10px 18px;
+  border-right: 1px solid #aaa;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.admission-nav-link:last-child {
+  border-right: none;
+}
+
+.admission-nav-link:hover {
+  color: #ffb800; /* Yellow hover */
+  background: #f0f0f0;
+}
+
+/* Hover underline effect */
+.admission-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  /* background-color: #e74c3c;
+  transition: width 0.3s ease; */
+}
+
+.admission-nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active link styling */
+.admission-nav-link.active-link {
+  background: #ffb800;
+  color: #2c2c8c; /* Deep blue text */
+  font-weight: bold;
+}

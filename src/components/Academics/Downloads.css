@@ -1,0 +1,73 @@
+.downloads-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.downloads-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #004080;
+  margin-bottom: 1.5rem;
+}
+
+.downloads-nav-bar {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #000;
+  font-size: 1rem;
+}
+
+.downloads-nav-bar span {
+  margin: 0 10px;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+.downloads-nav-bar span:last-child {
+  border-right: none;
+}
+
+.downloads-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.downloads-list li {
+  background-color: #ffa500; /* orange */
+  color: #fff;
+  font-weight: 500;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+.downloads-list li:hover {
+  background-color: #e67300; /* darker orange */
+}
+
+.downloads-list .open-link {
+  background-color: #fff;
+  color: #e67300;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.downloads-list .open-link:hover {
+  background-color: #e67300;
+  color: #fff;
+}

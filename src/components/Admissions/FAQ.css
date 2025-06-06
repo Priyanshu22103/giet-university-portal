@@ -1,0 +1,35 @@
+.faq-container {
+  padding: 40px 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.faq-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq-line {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin-bottom: 30px;
+}
+
+.faq-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 16px;
+}
+
+.faq-content strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #000;
+}
+
+.faq-content em {
+  color: #444;
+}

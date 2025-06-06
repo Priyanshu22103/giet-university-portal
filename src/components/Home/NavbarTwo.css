@@ -1,0 +1,117 @@
+/* Main nav bar */
+.main-nav {
+  background-color: #1e1e6e;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; /* Removed unnecessary margin */
+}
+
+/* Nav menu */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+  height: 100%;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+/* Nav links */
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.nav-menu li a:hover {
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 4px;
+}
+
+/* Center logo wrapper */
+.nav-logo {
+  position: relative;
+  top: 41px; /* Adjust as needed */
+  z-index: 15;
+  transition: top 0.3s ease-in-out;
+}
+
+/* Move logo up when sticky */
+.nav-logo.logo-sticky {
+  top: 0;
+}
+
+/* Logo container with background image */
+.logo-container {
+  background-image: url('../../assets/logo_bg.png'); /* adjust path as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  height: 175px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  z-index: 15;
+}
+
+/* Logo image inside */
+.logo-container img {
+  width: 128px;
+  height: auto;
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+
+/* Shrunk logo when sticky */
+.logo-container.logo-small {
+  height: 90px;
+  width: 110px;
+  background-size: 100% 100%;
+}
+
+.logo-container.logo-small img {
+  width: 60px;
+  transform: scale(1);
+}
+
+/* Sticky nav on scroll */
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  animation: slideDown 0.3s ease-in-out;
+}
+
+/* Slide-down animation */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+

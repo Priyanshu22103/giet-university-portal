@@ -1,0 +1,52 @@
+.student-support-container {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  /* no text-align here, so content stays left-aligned */
+}
+
+.student-support-title {
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto 12px;
+  padding-bottom: 6px;
+  display: table;          /* shrink to fit text */
+  margin-left: auto;       /* center horizontally */
+  margin-right: auto;
+  text-align: center;
+}
+
+.student-support-title .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 120px;
+  background: linear-gradient(90deg, blue 50%, orange 50%);
+  border-radius: 2px;
+}
+
+.student-support-list {
+  list-style-type: none;
+  padding-left: 100px;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0;
+  text-align: left;
+}
+
+.student-support-list li {
+  margin-bottom: 6px;
+  transition: color 0.3s ease;
+}
+
+.student-support-list li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.anti-ragging-bold-red {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,140 @@
+.authorities-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: none; /* Remove width cap */
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.authority-card {
+  background-color: #ffa405;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.authority-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.authority-title {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.authority-body {
+  background-color: #fff8f0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inner-card {
+  background-color: #e74c3c;
+  padding: 12px 16px;
+  border-radius: 6px;
+  color: white;
+}
+
+.inner-card a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.inner-card a:hover {
+  text-decoration: none;
+}
+.pdf-col {
+  margin-bottom: 1.5rem;
+}
+
+.pdf-link {
+  text-decoration: none;
+  color: #004aad;
+}
+
+.pdf-box {
+  border: 1.5px solid #004aad;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background: white;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdf-box:hover {
+  box-shadow: 0 6px 18px rgba(0, 74, 173, 0.3);
+  transform: translateY(-5px);
+}
+
+.pdf-icon {
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+}
+
+.pdf-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.pdf-row {
+  display: flex;
+  justify-content: flex-start; /* or center, based on design */
+  gap: 20px;
+  flex-wrap: wrap; /* allow multiple rows */
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+
+
+.pdf-card {
+  flex: 1 1 calc(25% - 20px); /* 4 per row */
+  min-width: 200px;
+  max-width: calc(25% - 20px);
+  
+}
+
+.pdf-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 74, 173, 0.3);
+  transform: translateY(-5px);
+}
+
+.pdf-icon {
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+}
+
+.pdf-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: normal;
+}

@@ -1,0 +1,68 @@
+/* Container for the entire grid of card1s */
+.admission-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 card1s in a row on large screens */
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+  .admission-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 card1s on medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .admission-container {
+    grid-template-columns: 1fr; /* 1 card1 per row on small screens */
+  }
+}
+
+/* Individual card1 styles */
+.card1 {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+}
+
+/* Profile image styling */
+.card1 img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Name styling */
+.card1 h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Designation in italic */
+.card1 .designation {
+  font-style: italic;
+  color: #777777;
+  margin-bottom: 0.8rem;
+}
+
+/* Contact details */
+.card1 p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #555555;
+}

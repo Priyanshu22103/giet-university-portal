@@ -1,0 +1,121 @@
+.programmess-section {
+  height: 93.1vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 40px 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.programmess-header {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+
+.programmess-header h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+
+.programmess-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 100px;
+  margin-right: 10%; /* Shift container slightly left from extreme right */
+}
+
+.programmess-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 400px;
+}
+
+.programmee-box {
+  background-color: #f4b400;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 2px solid #e0a800;
+  height: 40px;           /* Ensures equal height for all boxes */
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.programmee-box:hover:not(.more-programs) {
+  background-color: #1e1e6a;
+  color: white;
+}
+
+.more-programs {
+  background-color: #1e1e6a;
+  color: white;
+  
+  transition: background-color 0.3s ease;
+  height: 40px;         /* Same as others */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-programs:hover {
+  background-color: #ff4d4d;
+}
+
+/* Bottom Buttons */
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff4d4d;
+  width: 400px;
+  /* border-radius: 8px; */
+  overflow: hidden;
+}
+
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 10px;
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.bottom-box:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.separatorr {
+  width: 1px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

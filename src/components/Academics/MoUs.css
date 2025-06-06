@@ -1,0 +1,44 @@
+.mous-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 0 16px;
+  color: #333;
+}
+
+.mous-title {
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.mous-title .underline {
+  display: block;
+  height: 5px;
+  width: 160px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, blue 50%, orange 50%);
+  border-radius: 3px;
+  margin-top: 6px;
+}
+
+.mous-description {
+  margin: 16px 0 24px;
+  font-size: 16px;
+}
+
+.mous-button {
+  background-color: #004080;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.mous-button:hover {
+  background-color: #0066cc;
+}

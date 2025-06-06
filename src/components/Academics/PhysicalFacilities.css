@@ -1,0 +1,42 @@
+.physical-facilities-container {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+}
+
+.section-title {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 auto 12px;
+  padding-bottom: 6px;
+  display: table; /* shrink to fit text width */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section-title .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 140px; /* adjust width as needed */
+  background: linear-gradient(90deg, blue 50%, orange 50%);
+  border-radius: 2px;
+}
+
+.physical-facilities-video {
+  margin: 0;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;  /* this centers the text */
+  margin: 0 0 8px 0;
+}
+

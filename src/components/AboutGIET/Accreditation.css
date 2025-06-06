@@ -1,0 +1,73 @@
+
+.accreditation-card {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 24px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: linear-gradient(90deg, #f8f2f2 60%, #e6e6fa 100%);
+  border: 1.5px solid #604cfc;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(96, 76, 252, 0.08), 0 1.5px 6px rgba(0,0,0,0.04);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.accreditation-card:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 8px 24px rgba(96, 76, 252, 0.18), 0 2px 8px rgba(0,0,0,0.08);
+  border-color: #2b2a6f;
+  background: linear-gradient(90deg, #e6e6fa 60%, #f8f2f2 100%);
+}
+
+.accreditation-card img {
+  width: 160px;
+  height: 150px;
+  margin-right: 24px;
+  border-radius: 10px;
+  border: 2px solid #604cfc;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(96, 76, 252, 0.07);
+  object-fit: cover;
+}
+
+.accreditation-text h4 {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  color: #2b2a6f;
+  transition: color 0.2s;
+}
+
+.accreditation-text h4 a {
+  color: #2b2a6f;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.accreditation-text h4 a:hover {
+  color: #604cfc;
+  text-shadow: 0 2px 8px #bdb7f6;
+  text-decoration: underline;
+}
+
+.accreditation-text p {
+  margin: 0;
+  color: #444;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .accreditation-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 18px;
+  }
+
+  .accreditation-card img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}

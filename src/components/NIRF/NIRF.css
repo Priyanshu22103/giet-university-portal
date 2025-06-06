@@ -1,0 +1,100 @@
+body {
+  background: #181818;
+}
+.nirf-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #181818;
+  border-radius: 12px;
+  padding: 32px 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  min-height: 500px; /* Add this line */
+}
+
+.section-title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.collapsible {
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #fffbe7 0%, #ffe066 100%);
+  border: 4px solid #ff9800;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(255, 152, 0, 0.35);
+  transition: box-shadow 0.3s, transform 0.3s;
+  padding: 0;
+  overflow: hidden;
+}
+
+.collapsible.open {
+  box-shadow: 0 12px 40px rgba(255, 152, 0, 0.45);
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #fffbe7 0%, #ffe066 100%);
+}
+
+.collapsible button {
+  background-color: #f5a300;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+  border: none;
+  padding: 18px 24px;
+  font-size: 1.15rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.collapsible button:hover {
+  background: #ffe066;
+  color: #111;
+}
+
+.collapsible-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;
+  background: transparent;
+}
+
+.collapsible-content.open {
+  max-height: 400px;
+  opacity: 1;
+  background: transparent;
+}
+
+.child-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px 32px 10px 32px;
+}
+
+.child-links a {
+  background-color: #fffde4;
+  color: #222;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  margin-bottom: 6px;
+}
+
+.child-links a:hover {
+  background-color: #ffe066;
+  color: #111;
+  text-decoration: none;
+}
+
+/* Optional: Toggle icon rotation */
+.toggle-icon {
+  display: inline-block;
+  transition: transform 0.3s;
+}

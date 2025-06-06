@@ -1,0 +1,72 @@
+.application-process-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #222;
+  line-height: 1.8;
+  text-align: left; /* Ensures everything is left aligned */
+}
+
+.application-process-container h2,
+.application-process-container h3,
+.application-process-container p,
+.application-process-container a,
+.application-process-container ul,
+.application-process-container address {
+  text-align: left;
+}
+
+.application-process-container h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.application-process-container h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.application-process-container p {
+  margin-bottom: 15px;
+}
+
+.application-process-container a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.application-process-container a:hover {
+  text-decoration: underline;
+}
+
+.a-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fafafa;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.a-box ul {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.email-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.application-process-container address {
+  font-style: normal;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: left;
+}

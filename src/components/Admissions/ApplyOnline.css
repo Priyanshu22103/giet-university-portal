@@ -1,0 +1,57 @@
+.apply-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.apply-card {
+  background-color: #f1bc2c;
+  padding: 40px 30px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.apply-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.apply-subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1a237e;
+}
+
+.apply-online-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.apply-button {
+  background-color: #f1bc2c;
+  color: red;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.apply-button:hover {
+  opacity: 0.9;
+}
+
+.apply-contact p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #222;
+}

@@ -1,0 +1,93 @@
+.aic-container {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.aic-title {
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.aic-title .underline {
+  display: block;
+  height: 5px;
+  width: 180px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, blue 50%, orange 50%);
+  border-radius: 3px;
+  margin-top: 6px;
+}
+
+.aic-separator {
+  border: none;
+  border-top: 1.5px solid #ccc;
+  margin-bottom: 24px;
+}
+
+
+
+
+.aic-content p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.aic-content h3 {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #004080;
+}
+
+.aic-content h4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.aic-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+.aic-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.aic-table th,
+.aic-table td {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  text-align: left;
+  color: #000;
+}
+
+.aic-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.totally-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.contents-div{
+  background-color: #f5f9ff;
+  width:100%;
+}

@@ -1,0 +1,54 @@
+/* Top white banner */
+.top-banner {
+  background-color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  padding: 18px 0 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Yellow info strip */
+.info-strip {
+  background-color: #f1c40f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 41px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+/* First link (Apply Now GIETEE 2025) */
+.apply-now {
+  margin-right: 24px;
+  padding-right: 10px;
+  padding-left: 70px;
+  /* border-right: 1px solid black; */
+  /* border-left: 1px solid black; */
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Highlight (e.g. GIETEE 2025) */
+.highlight {
+  color: red;
+}
+
+/* Info links */
+.info-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.info-links a:hover,
+.apply-now:hover {
+  color: #e91e63;
+}

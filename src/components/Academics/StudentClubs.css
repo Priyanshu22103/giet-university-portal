@@ -1,0 +1,75 @@
+.student-clubs-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* ✅ Centering the heading */
+.student-clubs-container h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-align: center; /* <-- This line centers the heading */
+}
+
+.student-clubs-nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-weight: 600;
+  color: #0059b3;
+  margin-bottom: 2rem;
+}
+
+.student-clubs-nav ul li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.student-clubs-nav ul li:hover {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+.student-clubs-content h2 {
+  font-size: 1.8rem;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 0.5rem;
+}
+
+.student-clubs-content h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  margin: 0.5rem auto 0;
+  background: linear-gradient(to right, #0033a0 50%, #ff6f00 50%);
+  border-radius: 2px;
+}
+
+
+
+.student-clubs-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.student-clubs-content h3 {
+  font-size: 1.5rem;
+  color: #004080;
+  margin-top: 2rem;
+}

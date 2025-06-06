@@ -1,0 +1,89 @@
+#topnavbar{
+    font-size: 19px;
+    margin-left:40px;
+    /* border:2px solid red; */
+    white-space: pre-line;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    width:860px;
+    margin-left:0px;
+    line-height: 25px;
+    justify-content: center;
+    
+}
+#applynowbutton{
+    background-color: red;
+    border-color: red;
+    height: 44px;
+    width: 107px;
+    font-size: 16px;
+    margin-top: 3px;
+    border-radius: 7px;
+    margin-right:-10px;
+    margin-left:420px;
+    cursor:pointer;
+}
+#logo{
+    margin-left:20px;
+}
+#btn-signup{
+    width:593px;
+    height:40px;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 10px;
+}
+#signupform{
+    font-size: 18px;
+    margin-left: 45px;
+}
+#sidePhoto{
+    /* margin-left:1000px; */
+    /* margin-top:-920px;
+    margin-left: 880px; */
+}
+body {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #121212;
+}
+
+.form-content {
+  flex: 1;
+  color: white;
+  padding-right: 20px;
+}
+
+.side-image img {
+  max-width: 790px;
+  height: auto;
+  border-radius: 10px;
+}
+.side-image{
+    margin-top:-214px;
+    margin-right:-38px;
+}
+#sign-in{
+    width: 326px;
+    height: 35px;
+    background-color: darkblue;
+    border-color: darkblue;
+    border-radius: 4px;
+
+}
+#dont-have-account{
+    padding-left: 52px;
+    font-size: 17px;
+}
+#signinform{
+    margin-left: 40px;
+}

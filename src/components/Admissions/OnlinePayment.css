@@ -1,0 +1,40 @@
+.payment-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.payment-card {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-card img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.proceed-link {
+  display: block;
+  background: linear-gradient(to right, #fcd46b, #fff);
+  text-align: center;
+  padding: 12px 0;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.proceed-link:hover {
+  background: #f9c739;
+}

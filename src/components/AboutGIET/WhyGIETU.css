@@ -1,0 +1,266 @@
+.why-gietu-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background-color: #f4f8fb;
+  color: #2b2b2b;
+}
+
+
+/* Top Banner Section (White) */
+.top-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 48px 40px 40px 40px;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  margin-bottom: 48px;
+  gap: 32px;
+}
+
+.top-text {
+  flex: 1;
+  padding-right: 32px;
+  color: #1a237e;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.top-text h2 {
+  font-size: 1.5rem;
+  color: #070e13;
+  margin-bottom: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.campus3-img {
+  height: 220px;
+  max-width: 150px;
+  width: 10%;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(44,78,143,0.18);
+  ;
+}
+
+/* Intro Section (Blue) */
+.intro-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(120deg, #1a237e 80%, #3a5ca8 100%);
+  padding: 48px 40px 40px 40px;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  /* margin-bottom: 48px; */ /* REMOVE this line to remove gap */
+  gap: 32px;
+}
+
+.intro-text {
+  flex: 1;
+  padding-right: 32px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.intro-text h1 {
+  font-size: 2.4rem;
+  color: #ffb800;
+  margin-bottom: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.intro-heading-underline {
+  width: 90px;
+  height: 7px;
+  margin: 0 0 24px 0;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #ffb800 60%, #fff 40%);
+}
+
+.intro-text p {
+  margin-bottom: 18px;
+  color: #f4f4f4;
+}
+
+.campus-img {
+  height: 400px;
+  max-width: 680px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(44,78,143,0.18);
+  object-fit: cover;
+}
+
+/* Campus Life Section (Blue) */
+.campus-life {
+  display: flex;
+    flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(120deg, #1a237e 80%, #3a5ca8 100%);
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  gap: 0;
+}
+
+.campus-text {
+  color: #fff;
+  flex: 1;
+  padding-right: 20px;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+/* Facts Section */
+.facts-section {
+  display: grid;
+  
+  grid-template-columns: repeat(5, 1fr); /* 5 columns per row */
+  gap: 24px;
+  margin: 40px 20px 20px -20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.fact-box {
+  background: linear-gradient(100deg, #004e8f 70%, #ffb800 100%);
+  color: #fff;
+  border-radius: 12px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(44,78,143,0.13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  gap: 3px;
+  aspect-ratio: 1 / 1;       
+  width: 100%;             
+  min-width: 0;
+  min-height: 0;
+  padding: 10px;           
+  margin-right: 0;         
+  box-sizing: border-box;   
+  overflow: hidden;         
+  word-break: break-word;   
+}
+.fact-box:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(44,78,143,0.18);
+  background: linear-gradient(100deg, #ffb800 30%, #004e8f 100%);
+}
+.fact-main {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffeb3b;
+  margin-bottom: 2px;
+}
+.fact-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.fact-box br {
+  display: none;          
+}
+
+@media (max-width: 900px) {
+  .facts-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .facts-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .fact-box {
+    font-size: 1rem;
+    padding: 18px 10px;
+    min-height: 120px;
+  }
+}
+@media (max-width: 600px) {
+  .facts-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Highlights Section */
+.highlights-section {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+  gap: 20px;
+  min-width: 280px;
+  max-width: 6500px;
+}
+
+.highlight {
+  background: #eaeced;
+  border-radius: 8px;
+  padding: 16px 12px;
+  box-shadow: 0 2px 8px rgba(44,78,143,0.07);
+  margin-bottom: 0;
+}
+
+.highlight h4 {
+  color: #004e8f;
+  margin-bottom: 5px;
+  margin-left: 0;
+  font-size: 1.08rem;
+}
+
+.highlight p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Responsive: 1 per row on small screens */
+@media (max-width: 700px) {
+  .highlights-section {
+    grid-template-columns: 1fr;
+  }
+}
+/* Responsive Design */
+@media (max-width: 900px) {
+  .top-banner,
+  .intro-section,
+  .campus-life {
+    flex-direction: column;
+    padding: 24px 10px;
+    gap: 18px;
+  }
+  .top-text,
+  .intro-text,
+  .campus-text {
+    padding-right: 0;
+    text-align: center;
+  }
+  .banner-img,
+  .campus-img {
+    height: 220px;
+    max-width: 100%;
+  }
+}
+
