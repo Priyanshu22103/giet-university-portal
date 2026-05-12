@@ -2,7 +2,6 @@ import React, { useState,useEffect } from 'react';
 import './Authorities.css';
 // import AuthoritiesPDFCards from "../components/AuthoritiesPDFCards";
 import AuthoritiesPDFCards from "../AcademicsAdditional/AuthoritiesPDFCards"
-import Navbar from '../AcademicsAdditional/Navbar';
 import Footer from '../Home/Footer'
 // import "../components/AuthoritiesPDFCards.css";
 import "../AcademicsAdditional/AuthoritiesPDFCards.css"
