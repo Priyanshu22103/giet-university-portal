@@ -41,25 +41,25 @@
   margin-bottom: 15px;
 }
 
-.gallery {
+.galllery {
   margin-top: 40px;
 }
 
-.gallery h2 {
+.galllery h2 {
   font-size: 22px;
   margin-bottom: 15px;
   color: #192a56;
   text-align: center;
 }
 
-.gallery-images {
+.galllery-images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
 }
 
-.gallery-images img {
+.galllery-images img {
   width: 300px;
   height: auto;
   border-radius: 8px;

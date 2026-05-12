@@ -182,7 +182,7 @@ Dates of Interaction: 31.01.2025 and 01.02.2025
       "/images/test7.2.jpeg",
       "/images/test7.3.jpeg",
       "/images/test7.4.jpeg",
-      "/images/test7.5.jpeg",
+      "/images/test7.5.jpg",
       "/images/test7.6.jpeg",
     ],
   },
@@ -273,9 +273,9 @@ const InteractionDetail = () => {
         </div>
 
         {detail.gallery && detail.gallery.length > 0 && (
-          <div className="gallery">
+          <div className="galllery">
             <h2>More Photos</h2>
-            <div className="gallery-images">
+            <div className="galllery-images">
               {detail.gallery.map((img, idx) => (
                 <img key={idx} src={img} alt={`gallery-${idx}`} />
               ))}

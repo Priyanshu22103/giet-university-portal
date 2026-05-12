@@ -138,7 +138,7 @@ function App() {
             path="/"
             element={
               <>
-                <SeasonalAnimation />
+                {/* <SeasonalAnimation /> */}
                 <Navbar />
                 <HeaderVideo />
                 <ScrollDown />
@@ -204,7 +204,6 @@ function App() {
           <Route path="/innovations" element={<Layout><Innovation /></Layout>} />
           <Route path="/iqac" element={<Layout><Iqac /></Layout>} />
           <Route path="/academic-integrity-committee" element={<Layout><AcademicIntegrityCommittee /></Layout>} />
-          {/* <Route path="/school/soe" element={<Layout><SoePage /></Layout>} /> */}
           
            <Route path="/acad-overview" element={<AdmLayout><AdmOverview /></AdmLayout>} />
            <Route path="/gietee" element={<AdmLayout><AdmGIETEE/></AdmLayout>} />

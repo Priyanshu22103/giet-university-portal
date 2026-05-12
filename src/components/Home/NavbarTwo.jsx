@@ -18,7 +18,7 @@ const NavbarTwo = () => {
       <nav className={`main-nav ${isSticky ? 'sticky-nav' : ''}`}>
         <ul className="nav-menu">
           <li>
-            <Link to='/about-gietu' style={{ textDecoration: 'none', color: 'white' }}>About GIETU</Link>
+            <Link to='/about-gietu'>About GIETU</Link>
           </li>
           <li>
             <Link to='/student-clubs'>Academics</Link>
@@ -40,7 +40,7 @@ const NavbarTwo = () => {
           </li>
 
           <li>
-            <Link to='/placements' style={{ textDecoration: 'none', color: 'white' }}>Placements</Link>
+            <Link to='/placements'>Placements</Link>
           </li>
           <li><Link to='/overview'>Alumni</Link></li>
           <li>

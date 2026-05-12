@@ -16,7 +16,7 @@ const AboutGIETU = () => {
         <span className="underline"></span>
         </h2>
 
-        <div className="overview-box">
+        <div className="overvieww-box">
           <h2 className="overview-title">
             Alumni reflect the University’s past, represent its present, and link to its future
           </h2>

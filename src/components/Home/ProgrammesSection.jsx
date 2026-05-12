@@ -4,14 +4,14 @@ import backgroundImg from '../../assets/programs-background.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const programmes = [
-  { title: 'B. Tech.', path: '/programmes/btech' },
+  { title: 'B. Tech.', path: '/programmes/btech' }, 
   { title: 'B.Sc.(Ag)', path: '/programmes/bsc-ag' },
   { title: 'MBA', path: '/programmes/mba' },
-  { title: 'MCA', path: '/programmes/mca' },
+  { title: 'MCA', path: '/programmes/mca' },        
   { title: 'M. Tech.', path: '/programmes/mtech' },
   { title: 'M. Sc.', path: '/programmes/msc' },
-  { title: 'BBA', path: '/programmes/bba' },
-  { title: 'BCA', path: '/programmes/bca' },
+  { title: 'BBA', path: '/programmes/bba' },    
+  { title: 'BCA', path: '/programmes/bca' },  
   { title: 'Ph. D.', path: '/programmes/phd' },
 ];
 

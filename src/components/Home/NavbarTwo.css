@@ -47,7 +47,7 @@
 /* Center logo wrapper */
 .nav-logo {
   position: relative;
-  top: 41px; /* Adjust as needed */
+  top: 42px; /* Adjust as needed */
   z-index: 15;
   transition: top 0.3s ease-in-out;
 }

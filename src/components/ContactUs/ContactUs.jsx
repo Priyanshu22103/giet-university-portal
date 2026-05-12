@@ -70,7 +70,6 @@ if (response.ok) {
               BDA House No. HIG – 42A, Baramunda, Bhubaneswar,<br />
               Dist– Khorda, Odisha – India
             </p>
-            <p className="contact-email">enquiry[at]giet[dot]edu</p>
           </div>
 
           <div className="contact-right">
