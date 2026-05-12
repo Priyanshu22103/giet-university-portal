@@ -3,7 +3,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from './components/Home/ScrollToTop';
 
-import SeasonalAnimation from "./components/Home/SeasonalAnimation";
 import Navbar from "./components/Home/Navbar";
 import HeaderVideo from "./components/Home/HeaderVideo";
 import ScrollDown from "./components/Home/ScrollDown";
