@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./SchoolDetail.css";
 import Footer from "../Home/Footer.jsx";
-import TopNavbar from "../Home/Navbar.jsx";
 
 import soe from "../../assets/soe.jpg";
 import soa from "../../assets/soa.jpg";
